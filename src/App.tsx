@@ -188,56 +188,35 @@ function App() {
         <section id="hero" className="w-full pb-24">
           <BaseSection>
             <div className="col-span-12 lg:col-span-12 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
-              <span
+              <div
                 data-aos="fade-right"
                 data-aos-once="true"
-                className="text-base text-gradient font-semibold uppercase"
+                className="text-[2.5rem] sm:text-3xl xl:text-4xl text-center font-semibold uppercase"
               >
                 CIDOSI'25
-              </span>
+              </div>
               <h1
                 data-aos="fade-right"
                 data-aos-once="true"
-                className="text-[2.5rem] sm:text-5xl text-center  xl:text-6xl font-bold leading-tight sm:pr-8 xl:pr-10"
+                className="text-[2.5rem] sm:text-2xl xl:text-4xl text-center font-bold leading-tight sm:pr-8 xl:pr-10"
               >
                 1ère Edition du Colloque International sur le Digital et les Opportunités Socio-Economiques
               </h1>
+              <div
+                data-aos="fade-right"
+                data-aos-once="true"
+                className="text-[2.5rem] sm:text-m xl:text-lg text-center font-semibold uppercase"
+              >
+                Sous le thème
+              </div>
               <p
                 data-aos="fade-down"
                 data-aos-once="true"
                 data-aos-delay="300"
-                className="paragraph hidden sm:block"
+                className="hidden sm:block text-center font-semibold text-[2.5rem] sm:text-m xl:text-lg"
               >
-                Buy and sell 200+ cryptocurrencies with 20+ flat currencies
-                using bank transfers or your credit/debit card.
+                Transformation Digitale Et Opportunités : Inclusion, Innovation Et Durabilité Pour Un Développement Socio-Economique
               </p>
-              <div
-                data-aos="fade-up"
-                data-aos-once="true"
-                data-aos-delay="700"
-                className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-2"
-              >
-                <BaseButton style="max-w-full px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white">
-                  Get Started
-                </BaseButton>
-                <BaseButton style="max-w-full px-6 py-4 bg-inherit text-gradient border border-[#0c66ee] flex items-center justify-center">
-                  <span>Download App</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="currentColor"
-                    className="w-4 h-4 text-[#0c66ee]"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                    />
-                  </svg>
-                </BaseButton>
-              </div>
             </div>
           </BaseSection>
         </section>
