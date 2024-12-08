@@ -213,7 +213,7 @@ function App() {
                 data-aos="fade-down"
                 data-aos-once="true"
                 data-aos-delay="300"
-                className="hidden sm:block text-center font-semibold text-[2.5rem] sm:text-m xl:text-lg"
+                className="hidden sm:block text-center font-semibold text-[2.5rem] sm:text-xl xl:text-2xl"
               >
                 Transformation Digitale Et Opportunités : Inclusion, Innovation Et Durabilité Pour Un Développement Socio-Economique
               </p>
